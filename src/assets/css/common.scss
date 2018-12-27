@@ -1,0 +1,105 @@
+@import './userCenter.scss';
+#page-container {
+    background: transparent !important;
+}
+.main-container {
+    // flex
+    .flex-alignend-justify {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .flex-align-justifystart {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .flex-align-justifybetween {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .flex-alignstart-justifystart {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .flex-alignstart-justify {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .flex-align-justifyend-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .flex-align-justify-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-align-justifystart-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .flex-align-justifybetween-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .flex-alignstart-justifybetween-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .flex-alignstart-justify-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .flex-alignbetween-justify-column {
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+        justify-content: center;
+    }
+
+    .flex-alignstart-justifyend-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    .flex-alignstart-justifystart-column {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .user-photo {
+        width: 104px;
+        height: 104px;
+    }
+    .font-weight500 {
+        font-weight: 500;
+    }
+}
