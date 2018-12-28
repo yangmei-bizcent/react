@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { Router, Route, Link } from 'react-router';
 
 class Exp1 extends Component {
     render() {
