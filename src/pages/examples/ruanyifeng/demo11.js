@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import { getDemo11DataApi } from '../../../service/api'
 
 class Demo11 extends Component {
     constructor(props) {
@@ -8,7 +9,9 @@ class Demo11 extends Component {
         }
     }
     componentDidMount() {
-        
+        // getDemo11DataApi().then((res) => {
+        //     console.log('demo11数据：', res);
+        // });
     }
     render() {
         return (
