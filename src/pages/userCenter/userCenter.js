@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { Row, Col, Icon } from 'antd';
 
+const element = (<h1 className="greet">Hello, world!</h1>);
+
 class UserCenter extends Component {
     render() {
         return (
@@ -14,7 +16,7 @@ class UserCenter extends Component {
                                     alt="" 
                                     src='https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png' />
                                 <p className="fontsize6 font-weight500 usercenter-name">杨美</p>
-                                <p>持之以恒</p>
+                                <p>持之以恒{element}</p>
                             </div>
                             <div className="flex-alignstart-justifystart">
                                 <Icon type="like" />
